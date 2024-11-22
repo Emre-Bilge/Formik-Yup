@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(21, 16, 16);
+    color: #fff;
+}
+
+.App {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+form {
+    width: 500px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    border-bottom: 1px solid lightgrey;
+    background-color: rgb(21, 16, 16);
+    outline: none;
+    color: #fff;
+}
+
+.inputDiv {
+    margin: 20px 0px;
+
+}
+
+.inputButton {
+    width: 100%;
+    background-color: gold;
+    font-weight: bold;
+    padding: 7px;
+    cursor: pointer;
+}
+
+.errors-input {
+    color: red;
+    font-size: 15px;
+}
